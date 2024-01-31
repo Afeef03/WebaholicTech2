@@ -16,7 +16,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="Service Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="We provide the best web design and development services as a One-Stop Shop. We provide specialized and reasonably priced web design services to meet your needs. "
       />
       <AboutSectionOne />
       <TechStack />

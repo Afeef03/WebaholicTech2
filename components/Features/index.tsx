@@ -6,13 +6,8 @@ import { motion } from "framer-motion"
 const Features = () => {
   return (
     <>
-      <section id="services" className="py-16 md:py-20 lg:py-20">
+      <section id="services" className="mt-5 py-16 md:py-20 lg:py-20">
         <div className="container">
-          {/* <SectionTitle
-            title="Our Services"
-            paragraph="We provide the best web design and development services as a One-Stop Shop. We provide specialized and reasonably priced web design services to meet your needs. Select the most effective plans for creating a responsive website based on your requirements."
-            center
-          /> */}
           <div className="relative">
             <h2 className="absolute top-0 left-0 w-full mt-75 text-4xl font-bold" style={{
               width: '100%',

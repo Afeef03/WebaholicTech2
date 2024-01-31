@@ -15,7 +15,7 @@ const AboutPage = () => {
     <>
       <Breadcrumb
         pageName="About Page"
-        description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. In varius eros eget sapien consectetur ultrices. Ut quis dapibus libero."
+        description="Elevate your brand with our web design prowess. Crafting digital excellence, we transform ideas into impactful online experiences. "
       />
       <AboutSectionOne />
       <Flowchart />

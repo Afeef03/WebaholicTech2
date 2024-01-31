@@ -45,14 +45,14 @@ const TechStack = () => {
     ];
 
     return (
-        <div className='container my-10'>
+        <div className='py-8 container my-10'>
             <div className="relative my-5">
                 <h2 className="absolute top-0 left-0 w-full mt-75 text-4xl font-bold" style={{
                     width: '100%',
                     textAlign: 'center',
                     top: '45%'
-                }} id="AboutCompany">How We Work!</h2>
-                <h2 className="text-9xl opacity-10 text-uppercase" style={{ fontWeight: 'bold' }} id="about-us-1">About Us</h2>
+                }} id="AboutCompany">We Work With Lastest Tech</h2>
+                <h2 className="text-9xl opacity-10 text-uppercase" style={{ fontWeight: 'bold' }} id="about-us-1">TechStack We USe</h2>
             </div>
             <div className="tech-stacks grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 mt-8">
                 {cardsData.map((card, index) => (

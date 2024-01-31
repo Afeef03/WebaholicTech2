@@ -22,7 +22,7 @@ const AboutSectionOne = () => {
 
   return (
     <div>
-      <section id="about" className="pt-16 md:pt-20 lg:pt-20">
+      <section id="about" className="pt-16 md:pt-20 lg:pt-20 pb-5 bg-gray-light dark:bg-bg-color-dark">
         <div className="px-16 text-justify md:px-20 lg:px-16" >
           <div className="relative">
             <h2 className="absolute top-0 left-0 w-full mt-75 text-4xl font-bold" style={{
@@ -53,11 +53,6 @@ const AboutSectionOne = () => {
                       <List text="Mobile App Development: Elevate your brand with our mobile app development solutions. Whether you're targeting iOS or Android users, we create apps that combine functionality with a seamless user experience." />
                     </div>
 
-                    {/* <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Best Practices" />
-                    <List text="optimized code" />
-                    <List text="User friendly" />
-                  </div> */}
                   </div>
                 </div>
                 <h2 className="mb-8 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
@@ -74,15 +69,14 @@ const AboutSectionOne = () => {
                   data-wow-delay=".2s"
                 >
                   <Image
-                    // src="https://img.freepik.com/free-vector/desktop-smartphone-app-development_23-2148683810.jpg?w=826&t=st=1704900217~exp=1704900817~hmac=e157bfd8b7be3da6dcc2517aa5b02d779da010ae2f8bebc43ce983bcfaf97e88"
-                    src="/images/about/about-us-img.jpeg"
+                    src="https://images.unsplash.com/photo-1570126618953-d437176e8c79?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="about-image"
                     fill
+                    id="about-us-image"
                     className="mx-auto max-w-full object-contain drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                   />
                   <Image
-                    src="/images/about/about-us-img.jpeg"
-
+                    src="https://images.unsplash.com/photo-1570126618953-d437176e8c79?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     alt="about-image"
                     fill
                     className="mx-auto hidden max-w-full object-contain drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
@@ -93,8 +87,8 @@ const AboutSectionOne = () => {
           </div>
         </div>
       </section>
-      <FeaturesTab />
-      
+      {/* <FeaturesTab /> */}
+
     </div>
   );
 };
