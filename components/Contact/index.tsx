@@ -4,6 +4,7 @@ import React, { useState, FC } from "react";
 import { useForm } from 'react-hook-form';
 import 'react-toastify/dist/ReactToastify.css';
 import { ToastContainer } from 'react-toastify'
+import Loader from "../tools/Loader";
 
 export type FormData = {
   name: string,
@@ -18,11 +19,14 @@ const Contact: FC = () => {
   const { register, handleSubmit, reset } = useForm<FormData>();
 
   const onSubmit = (data: FormData) => {
+    setLoading(true);
     sendEmails(data);
+    setLoading(false);
 
     reset()
   }
-  const [selectedButton, setSelectedButton] = useState<string>("website"); // 'website' is the default selected button
+  const [selectedButton, setSelectedButton] = useState<string>("website");
+  const [loading, setLoading] = useState<boolean>(false);
 
   const handleButtonClick = (button: string) => {
     setSelectedButton(button);
@@ -161,93 +165,95 @@ const Contact: FC = () => {
               </li>
             </ul>
           </div>
-          <div className="rounded-lg bg-gray-200 dark:bg-gray-dark p-6">
-            <p className="text-sm mb-3 sm:mb-0 md:mb-3 font-semibold text-[#333] dark:text-white">
-              I'm interested in...
-            </p>
-            <div className="max-lg:mt-4 space-y-4">
-              <button
-                type="button"
-                onClick={() => handleButtonClick("website")}
-                className={`mr-4 rounded-md border-2 ${selectedButton === "website"
-                  ? "border-[#4A6CF7] bg-[#4A6CF7] text-white hover:bg-[#4A6CF7e2]"
-                  : "border-gray-300 bg-[#4A6CF7] bg-transparent text-gray-400"
-                  } px-4 py-2 text-sm font-medium tracking-wider outline-none`}
-              >
-                Website Development
-              </button>
-              <button
-                type="button"
-                onClick={() => handleButtonClick("mobile")}
-                className={`mr-4 rounded-md border-2 ${selectedButton === "mobile"
-                  ? "border-[#4A6CF7] bg-[#4A6CF7] text-white hover:bg-[#4A6CF7e2]"
-                  : "border-gray-300 bg-transparent text-gray-400"
-                  } px-4 py-2 text-sm font-medium tracking-wider outline-none`}
-              >
-                Mobile Development
-              </button>
-            </div>
-            {/* <button
+          {
+            loading ? <Loader /> : <div className="rounded-lg bg-gray-200 dark:bg-gray-dark p-6">
+              <p className="text-sm mb-3 sm:mb-0 md:mb-3 font-semibold text-[#333] dark:text-white">
+                I'm interested in...
+              </p>
+              <div className="max-lg:mt-4 space-y-4">
+                <button
+                  type="button"
+                  onClick={() => handleButtonClick("website")}
+                  className={`mr-4 rounded-md border-2 ${selectedButton === "website"
+                    ? "border-[#4A6CF7] bg-[#4A6CF7] text-white hover:bg-[#4A6CF7e2]"
+                    : "border-gray-300 bg-[#4A6CF7] bg-transparent text-gray-400"
+                    } px-4 py-2 text-sm font-medium tracking-wider outline-none`}
+                >
+                  Website Development
+                </button>
+                <button
+                  type="button"
+                  onClick={() => handleButtonClick("mobile")}
+                  className={`mr-4 rounded-md border-2 ${selectedButton === "mobile"
+                    ? "border-[#4A6CF7] bg-[#4A6CF7] text-white hover:bg-[#4A6CF7e2]"
+                    : "border-gray-300 bg-transparent text-gray-400"
+                    } px-4 py-2 text-sm font-medium tracking-wider outline-none`}
+                >
+                  Mobile Development
+                </button>
+              </div>
+              {/* <button
                   type="button"
                   className="rounded-md border-2 border-gray-300 bg-transparent px-4 py-2 text-sm font-medium tracking-wider text-gray-400 outline-none"
                 >
                   Design system
                 </button> */}
 
-            <form className="mt-8 space-y-4" onSubmit={handleSubmit(onSubmit)}>
-              <input
-                type="text"
-                placeholder="Name"
-                className="w-full rounded-md px-4 py-3 text-sm outline-[#4A6CF7] "
-                {...register('name', { required: true, })}
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                className="w-full rounded-md px-4 py-3 text-sm outline-[#4A6CF7]"
-                {...register('email', { required: true })}
-              />
-              <input
-                type="number"
-                placeholder="Number"
-                className="w-full rounded-md px-4 py-3 text-sm outline-[#4A6CF7]"
-                {...register('number', {
-                  required: true,
-                  pattern: {
-                    value: /^[0-9]{10}$/,
-                    message: 'Please enter a 10-digit number'
-                  }
-                })}
-              />
-              <textarea
-                placeholder="Describe your requirement"
-                rows={6}
-                className="w-full rounded-md px-4 pt-3 text-sm outline-[#4A6CF7]"
-                {...register('message', { required: true })}
-              ></textarea>
-              <button
-                type="submit"
-                className="flex w-full items-center justify-center rounded-md bg-[#4A6CF7] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A6CF7e2]"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16px"
-                  height="16px"
-                  fill="#fff"
-                  className="mr-2"
-                  viewBox="0 0 548.244 548.244"
+              <form className="mt-8 space-y-4" onSubmit={handleSubmit(onSubmit)}>
+                <input
+                  type="text"
+                  placeholder="Name"
+                  className="w-full rounded-md px-4 py-3 text-sm outline-[#4A6CF7] "
+                  {...register('name', { required: true, })}
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  className="w-full rounded-md px-4 py-3 text-sm outline-[#4A6CF7]"
+                  {...register('email', { required: true })}
+                />
+                <input
+                  type="number"
+                  placeholder="Number"
+                  className="w-full rounded-md px-4 py-3 text-sm outline-[#4A6CF7]"
+                  {...register('number', {
+                    required: true,
+                    pattern: {
+                      value: /^[0-9]{10}$/,
+                      message: 'Please enter a 10-digit number'
+                    }
+                  })}
+                />
+                <textarea
+                  placeholder="Describe your requirement"
+                  rows={6}
+                  className="w-full rounded-md px-4 pt-3 text-sm outline-[#4A6CF7]"
+                  {...register('message', { required: true })}
+                ></textarea>
+                <button
+                  type="submit"
+                  className="flex w-full items-center justify-center rounded-md bg-[#4A6CF7] px-4 py-3 text-sm font-semibold text-white hover:bg-[#4A6CF7e2]"
                 >
-                  <path
-                    fill-rule="evenodd"
-                    d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z"
-                    clip-rule="evenodd"
-                    data-original="#000000"
-                  />
-                </svg>
-                Send Message
-              </button>
-            </form>
-          </div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16px"
+                    height="16px"
+                    fill="#fff"
+                    className="mr-2"
+                    viewBox="0 0 548.244 548.244"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M392.19 156.054 211.268 281.667 22.032 218.58C8.823 214.168-.076 201.775 0 187.852c.077-13.923 9.078-26.24 22.338-30.498L506.15 1.549c11.5-3.697 24.123-.663 32.666 7.88 8.542 8.543 11.577 21.165 7.879 32.666L390.89 525.906c-4.258 13.26-16.575 22.261-30.498 22.338-13.923.076-26.316-8.823-30.728-22.032l-63.393-190.153z"
+                      clip-rule="evenodd"
+                      data-original="#000000"
+                    />
+                  </svg>
+                  Send Message
+                </button>
+              </form>
+            </div>
+          }
         </div>
       </div>
       <ToastContainer />

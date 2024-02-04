@@ -25,7 +25,7 @@ const HomePortfolio = () => {
                 <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:px-12 gap-2">
                     {/* ====1==== */}
                     <Link href={'https://glowing-licorice-f3d295.netlify.app/'} target='_blank'>
-                        <div className="d_card">
+                        <div className="d_card" id="first">
                             <div className="content">
                                 <h2 className="heading">Clinic Website</h2>
                                 <p className="data-content">
@@ -37,7 +37,7 @@ const HomePortfolio = () => {
 
                     {/* ====2==== */}
                     <Link href={'https://grilli-restaurent.netlify.app/'} target='_blank'>
-                        <div className="d_card">
+                        <div className="d_card" id='second'>
                             <div className="content">
                                 <h2 className="heading">Restaurent Website</h2>
                                 <p className="data-content">
@@ -49,7 +49,7 @@ const HomePortfolio = () => {
 
                     {/* ====3==== */}
                     <Link href={'https://college-templete-website.netlify.app/'} target='_blank'>
-                        <div className="d_card">
+                        <div className="d_card" id='third'>
                             <div className="content">
                                 <h2 className="heading">College Website</h2>
                                 <p className="data-content">
