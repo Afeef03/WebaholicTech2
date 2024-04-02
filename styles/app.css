@@ -238,8 +238,8 @@
     background-image: url('../public//images//portfolio/college.png');
 }
 
-.d_card:nth-child(4):before {
-    background-image: url(https://images.unsplash.com/photo-1580986475035-f0778c60f5ae?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjc5NjV9&auto=format&fit=crop&w=633&q=80);
+#fourth:before {
+    background-image: url('../public//images//portfolio/portfolio.png');
 }
 
 

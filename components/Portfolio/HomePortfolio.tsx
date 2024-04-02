@@ -21,7 +21,7 @@ const HomePortfolio = () => {
                 </p>
             </div>
             <div className="grid min-h-[140px] w-full place-items-center overflow-x-scroll rounded-lg p-6 lg:overflow-visible">
-            
+
                 <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:px-12 gap-2">
                     {/* ====1==== */}
                     <Link href={'https://glowing-licorice-f3d295.netlify.app/'} target='_blank'>
@@ -29,7 +29,7 @@ const HomePortfolio = () => {
                             <div className="content">
                                 <h2 className="heading">Clinic Website</h2>
                                 <p className="data-content">
-                                    "Developed and deployed a React-based calculator app showcasing strong frontend development skills."{" "} <span className="text-primary font-bold">Click For Preview</span>
+                                    "Transformed the clinic website with a sleek, professional design, prioritizing patient accessibility and ease of navigation. Implemented online appointment scheduling and informative resources for enhanced patient care."{" "} <span className="text-primary font-bold">Click For Preview</span>
                                 </p>
                             </div>
                         </div>
@@ -41,7 +41,7 @@ const HomePortfolio = () => {
                             <div className="content">
                                 <h2 className="heading">Restaurent Website</h2>
                                 <p className="data-content">
-                                    "Developed and deployed a React-based calculator app showcasing strong frontend development skills."{" "} <span className="text-primary font-bold">Click For Preview</span>
+                                    "Redesigned the restaurant website with a fresh, visually appealing layout, optimized for easy navigation on all devices. Integrated online ordering and reservation systems for a seamless dining experience."{" "} <span className="text-primary font-bold">Click For Preview</span>
                                 </p>
                             </div>
                         </div>
@@ -53,21 +53,23 @@ const HomePortfolio = () => {
                             <div className="content">
                                 <h2 className="heading">College Website</h2>
                                 <p className="data-content">
-                                    "Developed and deployed a React-based calculator app showcasing strong frontend development skills."{" "} <span className="text-primary font-bold">Click For Preview</span>
+                                    "Revamped the college website with a modern, user-friendly interface, prioritizing accessibility and intuitive navigation. Seamlessly integrated features to enhance student engagement and campus communication."{" "} <span className="text-primary font-bold">Click For Preview</span>
                                 </p>
                             </div>
                         </div>
                     </Link>
 
                     {/* ====4==== */}
-                    <div className="d_card">
-                        <div className="content">
-                            <h2 className="heading">Calculator App</h2>
-                            <p className="data-content">
-                                "Developed and deployed a React-based calculator app showcasing strong frontend development skills."{" "} <span className="text-primary font-bold">Click For Preview</span>
-                            </p>
+                    <Link href={'https://mohdafeef.netlify.app/'} target='_blank'>
+                        <div className="d_card" id='fourth'>
+                            <div className="content">
+                                <h2 className="heading">Portfolio Website</h2>
+                                <p className="data-content">
+                                    "Crafted and launched a dynamic portfolio website, highlighting proficiency in frontend development using React. Seamlessly blending design and functionality for an engaging user experience"{" "} <span className="text-primary font-bold">Click For Preview</span>
+                                </p>
+                            </div>
                         </div>
-                    </div>
+                    </Link>
 
                 </div>
             </div>

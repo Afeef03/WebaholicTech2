@@ -31,7 +31,7 @@ export function Gallery() {
       images: [
         {
           imageLink:
-            "images/college.png",
+            "images/portfolio/college.png",
         },
 
       ],
@@ -53,16 +53,15 @@ export function Gallery() {
       text: "Experience gastronomic delight on our single-page restaurant website. From savory menus to seamless reservations, we've condensed the essence of your dining experience into a visually appealing, one-stop showcase. Designed for simplicity and optimized for all devices, our single-page site ensures a delightful journey for every online visitor. Savor the convenience, taste the elegance – it's your restaurant's story, simplified."
     },
     {
-      label: "Bussiness",
+      label: "Portfolio",
       value: "angular",
       images: [
         {
           imageLink:
-            "https://images.unsplash.com/photo-1499696010180-025ef6e1a8f9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+            "images/portfolio/portfolio.png",
         },
-
       ],
-      website : "Eccomerse Website",
+      website : "Portfolio Website",
       siteLink: "https://mohdafeef.netlify.app/",
       text: "Explore our latest masterpiece – a sleek and responsive portfolio website crafted with precision using React. Our showcase exemplifies the art of web development, combining modern design elements with seamless navigation. Discover innovation at its best, tailored for an immersive user experience. Witness the power of our agency's expertise in every click."
     },

@@ -4,6 +4,7 @@ import IconResponsive from "../icons/IconResponsive";
 import { MdPriceCheck } from "react-icons/md";
 import { TbWorldWww } from "react-icons/tb";
 import { CgWebsite } from "react-icons/cg";
+import { MdSettingsApplications } from "react-icons/md";
 
 const featuresData: Feature[] = [
   {
@@ -49,11 +50,11 @@ const featuresData: Feature[] = [
   {
     id: 1,
     icon: (
-     <TbWorldWww size={40} />
+      <MdSettingsApplications size={40} />
     ),
-    title: "Free Domain and SSL Certificate",
+    title: "Application Development Services",
     paragraph:
-      "Get a free domain and SSL Certificate for the first year for securing your online identity and boosting your brand presence at no extra cost.",
+      "Offering top-tier application development services tailored to your needs. Transform ideas into sleek, functional software solutions. Elevate your business with our expertise.",
   },
   {
     id: 1,
