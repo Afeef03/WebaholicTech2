@@ -16,7 +16,7 @@ import ContactPage from "./contact/page";
 
 export const metadata: Metadata = {
   title: "WebaholicTech",
-  description: "This is Home for Startup Nextjs Template",
+  description: "Get amazing website for your bussiness in affortable price.",
   // other metadata
 };
 
