@@ -1,5 +1,5 @@
 import React from 'react';
-import Typed from 'react-typed';
+import {ReactTyped} from 'react-typed';
 
 const TypingEffect = () => {
     const strings = [
@@ -8,7 +8,7 @@ const TypingEffect = () => {
         '<span class="text-primary">E-Commerse Stores</span>',
       ];
   return (
-    <Typed
+    <ReactTyped
       strings={strings}
       typeSpeed={50}
       backSpeed={30}
