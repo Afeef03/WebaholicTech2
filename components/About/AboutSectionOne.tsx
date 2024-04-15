@@ -2,7 +2,7 @@ import Image from "next/image";
 import SectionTitle from "../Common/SectionTitle";
 import AboutSectionTwo from "./AboutSectionTwo";
 import Flowchart from "./FlowChart";
-import FeaturesTab from "../FeatureTab";
+
 
 const checkIcon = (
   <svg width="16" height="13" viewBox="0 0 16 13" className="fill-current">

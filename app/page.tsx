@@ -5,12 +5,10 @@ import Contact from "@/components/Contact";
 import Features from "@/components/Features";
 import Hero from "@/components/Hero";
 import HomePortfolio from "@/components/Portfolio/HomePortfolio";
-import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
-import Video from "@/components/Video";
 import { AccordianCustomStyles } from "@/components/tools/AccordianCustomStyles";
 import { Metadata } from "next";
-import ContactPage from "./contact/page";
+
 
 export const metadata: Metadata = {
   title: "WebaholicTech",
@@ -33,7 +31,7 @@ export default function Home() {
       <AccordianCustomStyles />
       <Testimonials />
       {/* <Blog /> */}
-      
+
       <Contact />
     </>
   );
