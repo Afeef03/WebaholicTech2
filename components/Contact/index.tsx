@@ -10,7 +10,8 @@ export type FormData = {
   name: string,
   email: string,
   number: string,
-  message: string
+  message: string,
+  service: string
 }
 
 const Contact: FC = () => {
@@ -20,7 +21,9 @@ const Contact: FC = () => {
 
   const onSubmit = (data: FormData) => {
     setLoading(true);
-    sendEmails(data);
+    const service = selectedButton === "website" ? "Website Development" : "Mobile Development";
+    sendEmails({ ...data, service });
+    // sendEmails(data);
     setLoading(false);
 
     reset()

@@ -30,7 +30,7 @@ const AboutSectionOne = () => {
               textAlign: 'center',
               top: '45%'
             }} id="AboutCompany">How We Work!</h2>
-            <h2 className="text-9xl opacity-10 text-uppercase" style={{ fontWeight: 'bold' }} id="about-us-1">About Us</h2>
+            <h2 className="text-9xl opacity-10 text-uppercase dark:text-white" style={{ fontWeight: 'bold' }} id="about-us-1">About Us</h2>
           </div>
 
         </div>

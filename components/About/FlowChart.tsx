@@ -24,7 +24,7 @@ const Flowchart = () => {
                     width: '100%',
                     textAlign: 'center',
                     top: '45%'
-                }} id="howWeWork">How we start the project</h2>
+                }} id="AboutCompany">How we start the project</h2>
                 <h2 className="text-9xl opacity-10 text-uppercase" style={{ fontWeight: 'bold' }} id="about-us-1">Project Journey Map</h2>
             </div>
             <VerticalTimeline lineColor='black'>

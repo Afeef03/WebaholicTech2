@@ -61,7 +61,7 @@ export function AccordianCustomStyles() {
         </AccordionBody>
       </Accordion>
       {/* =======3===== */}
-      <Accordion open={open === 3} className="rounded-lg border border-blue-gray-100 px-4" icon={<Icon id={1} open={open} />} placeholder={''} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+      <Accordion open={open === 3} className="mb-2 rounded-lg border border-blue-gray-100 px-4" icon={<Icon id={1} open={open} />} placeholder={''} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <AccordionHeader
           onClick={() => handleOpen(3)}
           className={` font-['__Inter_aaf875', '__Inter_Fallback_aaf875'] border-b-0 text-black dark:text-white transition-colors ${open === 3 ? "text-blue-500 hover:!text-blue-700" : ""}`}
@@ -73,7 +73,7 @@ export function AccordianCustomStyles() {
         </AccordionBody>
       </Accordion>
       {/* =======4===== */}
-      <Accordion open={open === 4} className="rounded-lg border border-blue-gray-100 px-4" icon={<Icon id={1} open={open} />} placeholder={''} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+      <Accordion open={open === 4} className="mb-2 rounded-lg border border-blue-gray-100 px-4" icon={<Icon id={1} open={open} />} placeholder={''} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <AccordionHeader
           onClick={() => handleOpen(4)}
           className={`font-['__Inter_aaf875', '__Inter_Fallback_aaf875'] border-b-0 text-black dark:text-white transition-colors ${open === 4 ? "text-blue-500 hover:!text-blue-700" : ""}`}
@@ -85,7 +85,7 @@ export function AccordianCustomStyles() {
         </AccordionBody>
       </Accordion>
       {/* =======5===== */}
-      <Accordion open={open === 5} className="rounded-lg border border-blue-gray-100 px-4" icon={<Icon id={1} open={open} />} placeholder={''} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
+      <Accordion open={open === 5} className="mb-2 rounded-lg border border-blue-gray-100 px-4" icon={<Icon id={1} open={open} />} placeholder={''} onPointerEnterCapture={undefined} onPointerLeaveCapture={undefined}>
         <AccordionHeader
           onClick={() => handleOpen(5)}
           className={`font-['__Inter_aaf875', '__Inter_Fallback_aaf875'] border-b-0 text-black dark:text-white transition-colors ${open === 5 ? "text-blue-500 hover:!text-blue-700" : ""}`}
