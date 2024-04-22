@@ -1,4 +1,3 @@
-
 import { type NextRequest, NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 import Mail from 'nodemailer/lib/mailer';
@@ -23,7 +22,7 @@ export async function POST(request: NextRequest) {
     text: `Message from ${name} \n Email: ${email} \n Mobile Number : ${number}`,
   };
 
-  const sendMailPromise = () =>
+  const sendMail = () =>
     new Promise<string>((resolve, reject) => {
       transport.sendMail(mailOptions, function (err) {
         if (!err) {
@@ -35,7 +34,7 @@ export async function POST(request: NextRequest) {
     });
 
   try {
-    await sendMailPromise();
+    await sendMail();
     return NextResponse.json({ message: 'Email sent' });
   } catch (err) {
     return NextResponse.json({ error: err }, { status: 500 });

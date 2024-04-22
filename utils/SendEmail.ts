@@ -1,7 +1,6 @@
 import { FormData } from "@/components/Contact";
 import { ToastContainer, toast } from 'react-toastify';
 
-
 export function sendEmails(data: FormData) {
   const apiEndpoint = '/api/email';
 
@@ -16,8 +15,9 @@ export function sendEmails(data: FormData) {
       });
     })
     .catch((err) => {
-      toast.success(err, {
+      toast.error('Failed to send email', {
         theme: 'dark'
       });
+      console.error(err);
     });
 }
