@@ -70,7 +70,7 @@ const Contact: FC = () => {
                   />
                 </svg>
                 <a
-                  href="javascript:void(0)"
+                  href="/"
                   className="ml-3 text-sm text-white"
                 >
                   <strong>info@example.com</strong>
@@ -90,7 +90,7 @@ const Contact: FC = () => {
                   ></path>
                 </svg>
                 <a
-                  href="javascript:void(0)"
+                  href="/"
                   className="ml-3 text-sm text-white"
                 >
                   <strong>+91-9867714026</strong>
@@ -114,7 +114,7 @@ const Contact: FC = () => {
                   ></path>
                 </svg>
                 <a
-                  href="javascript:void(0)"
+                  href="/"
                   className="ml-3 text-sm text-white"
                 >
                   <strong>Hyderabad, Telangana-500001</strong>
@@ -123,7 +123,7 @@ const Contact: FC = () => {
             </ul>
             <ul className="mt-12 flex space-x-4">
               <li className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#4A6CF7] hover:bg-[#4A6CF7e2]">
-                <a href="javascript:void(0)">
+                <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18px"
@@ -139,7 +139,7 @@ const Contact: FC = () => {
                 </a>
               </li>
               <li className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#4A6CF7] hover:bg-[#4A6CF7e2]">
-                <a href="javascript:void(0)">
+                <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18px"
@@ -155,7 +155,7 @@ const Contact: FC = () => {
                 </a>
               </li>
               <li className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#4A6CF7] hover:bg-[#4A6CF7e2]">
-                <a href="javascript:void(0)">
+                <a href="/">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18px"

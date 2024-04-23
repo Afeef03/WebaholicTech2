@@ -6,8 +6,8 @@ import TechStack from "@/components/TechStack/TechStack";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "Services Page | WebaholicTech",
+  description: "Get amazing website for your bussiness in affortable price.",
   // other metadata
 };
 

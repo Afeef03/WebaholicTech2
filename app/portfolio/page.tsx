@@ -5,8 +5,8 @@ import Portfolio from '@/components/Portfolio';
 
 
 export const metadata: Metadata = {
-  title: "Portfolio Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "Portfolio Page | WebaholicTech",
+  description: "Get amazing website for your bussiness in affortable price.",
   // other metadata
 };
 const portfolioPage = () => {

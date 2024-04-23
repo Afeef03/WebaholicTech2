@@ -1,12 +1,11 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
-import AboutSectionTwo from "@/components/About/AboutSectionTwo";
 import Flowchart from "@/components/About/FlowChart";
 import Breadcrumb from "@/components/Common/Breadcrumb";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "About Page | Free Next.js Template for Startup and SaaS",
-  description: "This is About Page for Startup Nextjs Template",
+  title: "About Page | WebaholicTech",
+  description: "Get amazing website for your bussiness in affortable price.",
   // other metadata
 };
 

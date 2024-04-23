@@ -11,9 +11,19 @@ import { Metadata } from "next";
 
 
 export const metadata: Metadata = {
-  title: "WebaholicTech",
+  metadataBase : new URL("https://www.webaholictech.com/"),
+  title: {
+    default : "WebaholicTech",
+    template : `%s | WebaholicTech`
+  },
   description: "Get amazing website for your bussiness in affortable price.",
-  // other metadata
+  alternates : {
+    canonical : `https://www.webaholictech.com/`,
+    languages : {
+      "en-US" : "https://www.webaholictech.com/" 
+    }
+  },
+  
 };
 
 export default function Home() {
