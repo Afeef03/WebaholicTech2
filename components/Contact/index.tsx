@@ -18,6 +18,8 @@ const Contact: FC = () => {
 
 
   const { register, handleSubmit, reset } = useForm<FormData>();
+  const [selectedButton, setSelectedButton] = useState<string>("website");
+  const [loading, setLoading] = useState<boolean>(false);
 
   const onSubmit = (data: FormData) => {
     setLoading(true);
@@ -25,11 +27,10 @@ const Contact: FC = () => {
     sendEmails({ ...data, service });
     // sendEmails(data);
     setLoading(false);
+    console.log();
 
     reset()
   }
-  const [selectedButton, setSelectedButton] = useState<string>("website");
-  const [loading, setLoading] = useState<boolean>(false);
 
   const handleButtonClick = (button: string) => {
     setSelectedButton(button);

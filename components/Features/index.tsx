@@ -17,7 +17,7 @@ const Features = () => {
             <h2 className="text-9xl opacity-10 text-uppercase" id="about-us-1">Services</h2>
           </div>
           <div className="flex justify-center">
-            <p className="text-base !leading-relaxed text-body-color md:text-lg sm:w-full p-tag-services">
+            <p className=" !leading-relaxed  md:text-lg sm:w-full p-tag-services text-lg font-medium text-body-color">
               We provide the best web design and development services as a One-Stop Shop. We provide specialized and reasonably priced web design services to meet your needs. Select the most effective plans for creating a responsive website based on your requirements.
             </p>
           </div>
