@@ -12,7 +12,7 @@ const checkIcon = (
 
 const AboutSectionOne = () => {
   const List = ({ text }) => (
-    <p className="mb-5 flex text-lg font-medium text-body-color">
+    <p className="mb-5 flex text-lg font-normal text-body-color">
       <span className="mr-4 flex h-[30px] p-2 w-[30px] items-center justify-center rounded-md bg-primary bg-opacity-10 text-primary">
         {checkIcon}
       </span>
@@ -58,7 +58,7 @@ const AboutSectionOne = () => {
                 <h2 className="mb-8 text-3xl font-bold !leading-tight text-black dark:text-white sm:text-4xl md:text-[45px]">
                   Our Commitments
                 </h2>
-                <p className="text-base !leading-relaxed text-body-color md:text-lg">
+                <p className="text-base !leading-relaxed text-body-color md:text-lg mb-2 lg:mb-0">
                   Despite being a small team, we are committed to offering custom websites and mobile apps at affordable prices. Our focus extends from small businesses and startups to larger e-commerce enterprises, providing cost-effective digital solutions that exceed expectations.
                 </p>
               </div>

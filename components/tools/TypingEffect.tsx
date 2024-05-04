@@ -3,9 +3,10 @@ import {ReactTyped} from 'react-typed';
 
 const TypingEffect = () => {
     const strings = [
-        '<span class="text-primary">Website</span>',
-        '<span class="text-primary">Application</span>',
-        '<span class="text-primary">E-Commerse Stores</span>',
+        '<span class="text-primary">Websites</span>',
+        '<span class="text-primary">Web-Apps</span>',
+        '<span class="text-primary">Mobile-Applications</span>',
+        '<span class="text-primary">E-Commerce Stores</span>',
       ];
   return (
     <ReactTyped

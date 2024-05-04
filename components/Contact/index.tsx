@@ -70,10 +70,10 @@ const Contact: FC = () => {
                   />
                 </svg>
                 <a
-                  href="/"
+                  href="mailto:info@webaholictech.com"
                   className="ml-3 text-sm text-white"
                 >
-                  <strong>info@example.com</strong>
+                  <strong>info@webaholictech.com</strong>
                 </a>
               </li>
               <li className="flex items-center">
@@ -155,7 +155,7 @@ const Contact: FC = () => {
                 </a>
               </li>
               <li className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-[#4A6CF7] hover:bg-[#4A6CF7e2]">
-                <a href="/">
+                <a href="https://www.instagram.com/webaholictech/?next=%2F" target="_blank">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="18px"

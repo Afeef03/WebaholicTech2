@@ -146,7 +146,7 @@ const Header = () => {
               </div>
               <div className="flex items-center justify-end gap-3 pr-16 lg:pr-0">
                 <a
-                  href="mailto:innowebsolution@gmail.com"
+                  href="mailto:info@webaholictech.com"
                   className="text-primary"
                 >
                   <IoMdMail size={20} />
