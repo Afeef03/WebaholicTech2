@@ -32,7 +32,7 @@ const Flowchart = () => {
                     className="vertical-timeline-element--work"
                     contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                     contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-                    date="2011 - present"
+                    // date="2011 - present"
                     iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                     icon={<AiOutlineProject />}
                     visible={inView}
@@ -44,7 +44,7 @@ const Flowchart = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2010 - 2011"
+                    // date="2010 - 2011"
                     iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
                     icon={<FaChalkboard />}
                     contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
@@ -58,7 +58,7 @@ const Flowchart = () => {
 
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2008 - 2010"
+                    // date="2008 - 2010"
                     iconStyle={{ background: "rgb(243 151 33)", color: "#fff" }}
                     contentStyle={{ background: "rgb(243 151 33)", color: "#fff" }}
                     icon={<IoLogoFigma />}
@@ -69,7 +69,7 @@ const Flowchart = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--work"
-                    date="2006 - 2008"
+                    // date="2006 - 2008"
                     iconStyle={{ background: "rgb(243 151 33)", color: "#fff" }}
                     contentStyle={{ background: "rgb(243 151 33)", color: "#fff" }}
                     icon={<IoCodeSlashSharp />}
@@ -81,7 +81,7 @@ const Flowchart = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    date="April 2013"
+                    // date="April 2013"
                     iconStyle={{ background: "rgb(243 151 33)", color: "#fff" }}
                     contentStyle={{ background: "rgb(243 151 33)", color: "#fff" }}
                     icon={<PiComputerTowerFill />}
@@ -95,7 +95,7 @@ const Flowchart = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    date="November 2012"
+                    // date="November 2012"
                     iconStyle={{ background: "rgb(25 151 3)", color: "#fff" }}
                     contentStyle={{ background: "rgb(25 151 3)", color: "#fff" }}
                     icon={<RiServerFill />}
@@ -108,7 +108,7 @@ const Flowchart = () => {
                 </VerticalTimelineElement>
                 <VerticalTimelineElement
                     className="vertical-timeline-element--education"
-                    date="2002 - 2006"
+                    // date="2002 - 2006"
                     iconStyle={{ background: "rgb(25 151 3)", color: "#fff" }}
                     contentStyle={{ background: "rgb(25 151 3)", color: "#fff" }}
                     icon={<FaRocket />}
