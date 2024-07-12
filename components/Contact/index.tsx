@@ -93,7 +93,7 @@ const Contact: FC = () => {
                   href="/"
                   className="ml-3 text-sm text-white"
                 >
-                  <strong>+91-9867714026</strong>
+                  <strong>+91-8688284092</strong>
                 </a>
               </li>
               <li className="flex items-center">
