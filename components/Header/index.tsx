@@ -152,7 +152,7 @@ const Header = () => {
                   <IoMdMail size={20} />
                 </a>
                 <a
-                  href="tel:9867714026"
+                  href="tel:8688284092"
                   className="flex items-center justify-center gap-2 text-primary"
                 >
                   <FaPhoneAlt />
