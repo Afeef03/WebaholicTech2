@@ -157,7 +157,7 @@ const Header = () => {
                 >
                   <FaPhoneAlt />
                   <span className="hidden cursor-pointer text-xs md:block md:text-base">
-                    +91-9867714026
+                    +91-8688284092
                   </span>
                 </a>
                 <div>
