@@ -3,6 +3,7 @@ import {ReactTyped} from 'react-typed';
 
 const TypingEffect = () => {
     const strings = [
+      '<span class="text-primary">Odoo Software</span>',
         '<span class="text-primary">Websites</span>',
         '<span class="text-primary">Web-Apps</span>',
         '<span class="text-primary">Mobile-Applications</span>',

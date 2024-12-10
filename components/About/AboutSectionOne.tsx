@@ -49,8 +49,9 @@ const AboutSectionOne = () => {
                 >
                   <div className="mx-[-12px] flex flex-wrap">
                     <div className="w-full px-3 lg:w-full">
-                      <List text="Web Development: Immerse your brand in the digital space with our professional web development services. From sleek corporate websites to robust e-commerce platforms, we have the expertise to bring your vision to life." />
-                      <List text="Mobile App Development: Elevate your brand with our mobile app development solutions. Whether you're targeting iOS or Android users, we create apps that combine functionality with a seamless user experience." />
+                      <List text="Business Solutions: We provide efficient ERP software solutions like Odoo, tailored to streamline and automate your business operations seamlessly." />
+                      <List text="Website Development: Elevate your online presence with our expert website development services. We create responsive, user-friendly websites tailored to your brand’s needs, ensuring seamless functionality and a great user experience." />
+                      <List text="Mobile App Development: Enhance your brand with our mobile app development. We build functional, user-friendly apps for both iOS and Android." />
                     </div>
 
                   </div>

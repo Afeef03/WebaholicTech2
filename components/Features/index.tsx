@@ -18,7 +18,7 @@ const Features = () => {
           </div>
           <div className="flex justify-center">
             <p className=" !leading-relaxed  md:text-lg sm:w-full p-tag-services text-lg font-medium text-body-color">
-              We provide the best web design and development services as a One-Stop Shop. We provide specialized and reasonably priced web design services to meet your needs. Select the most effective plans for creating a responsive website based on your requirements.
+              We provide comprehensive web design, development, and app solutions, along with Odoo ERP integration to streamline your business operations. Our affordable, responsive websites and ERP services are tailored to your needs.
             </p>
           </div>
           <div className="grid grid-cols-1 gap-x-8 gap-y-14 md:grid-cols-2 lg:grid-cols-3 text-center">

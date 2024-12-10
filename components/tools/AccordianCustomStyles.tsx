@@ -45,7 +45,8 @@ export function AccordianCustomStyles() {
 
 
         <AccordionBody className=" font-['__Inter_aaf875', '__Inter_Fallback_aaf875'] text-base !leading-relaxed text-body-color md:text-lg sm:w-full">
-          At WebaholicTech, we're experts in creating dynamic websites and apps. Our services include custom web design, mobile app development for both iOS and Android, and smooth e-commerce solutions. We're dedicated to bringing your digital ideas to life, ensuring an engaging online presence for your business.
+
+          At WebaholicTech, we're experts in creating dynamic websites and apps. Our services include custom web design, mobile app development for both iOS and Android, smooth e-commerce solutions, and tailored ERP software integrations. We're dedicated to bringing your digital ideas to life, ensuring an engaging online presence and streamlined business operations.
         </AccordionBody>
       </Accordion>
       {/* ======2======= */}
